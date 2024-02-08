@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentContenido">
+
+    <ImageView
+        android:id="@+id/imageViewTE"
+        android:layout_width="159dp"
+        android:layout_height="286dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056"
+        app:srcCompat="@drawable/torreiffel" />
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="191dp"
+        android:layout_height="336dp"
+        android:text="@string/la_torre_eiffel_tour_eiffel_en_franc_s_inicialmente_llamada_tour_de_300_m_tres_torre_de_300_metros_es_una_estructura_de_hierro_pudelado_dise_ada_inicialmente_por_los_ingenieros_civiles_maurice_koechlin_y_mile_nouguier_y_construida_tras_el_redise_o_est_tico_de_stephen_sauvestre_por_el_ingeniero_civil_franc_s_gustave_eiffel_y_sus_colaboradores_para_la_exposici_n_universal_de_1889_en_par_s_francia"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <Button
+        android:id="@+id/botonAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/atras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="340dp"
+        android:layout_height="279dp"
+        android:text="@string/ubicada_en_el_extremo_del_campo_de_marte_a_la_orilla_del_r_o_sena_este_monumento_parisino_s_mbolo_de_francia_y_de_su_capital_es_la_estructura_m_s_alta_de_la_ciudad_y_el_monumento_tur_stico_m_s_visitado_del_mundo_con_7_1_millones_de_turistas_cada_a_o_con_una_altura_de_300_metros_prolongada_m_s_tarde_con_una_antena_hasta_los_324_metros_la_torre_eiffel_fue_la_estructura_m_s_elevada_del_mundo_durante_cuarenta_y_un_a_os_es_el_monumento_de_pago_m_s_visitado_del_mundo"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
